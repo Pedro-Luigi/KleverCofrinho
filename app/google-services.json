@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "470049414837",
+    "project_id": "klever-cofrinho",
+    "storage_bucket": "klever-cofrinho.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:470049414837:android:bac07c7eaf09b62d6ee8fc",
+        "android_client_info": {
+          "package_name": "com.meu.klever_cofrinho"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBktbA6GKwOrVKqpkUi-vm01iyZeMmwbMI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

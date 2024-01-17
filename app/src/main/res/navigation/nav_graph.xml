@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <action android:id="@+id/action_global_homeFragment"
+        app:destination="@id/homeFragment"
+        app:launchSingleTop="true"/>
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.meu.klever_cofrinho.ui.fragment.HomeFragment"
+        android:label="HomeFragment" >
+        <action
+            android:id="@+id/action_homeFragment_to_criptoFragment"
+            app:destination="@id/criptoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/criptoFragment"
+        android:name="com.meu.klever_cofrinho.ui.fragment.CriptoFragment"
+        android:label="CriptoFragment" >
+        <action
+            android:id="@+id/action_criptoFragment_to_profileFragment"
+            app:destination="@id/profileFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.meu.klever_cofrinho.ui.fragment.ProfileFragment"
+        android:label="ProfileFragment" >
+        <action
+            android:id="@+id/action_profileFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+
+</navigation>

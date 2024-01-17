@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/homeFragment"
+        android:title="Início"
+        android:icon="@drawable/ic_home"/>
+
+    <item android:id="@+id/criptoFragment"
+        android:title="Cripto"
+        android:icon="@drawable/ic_bitcoin"/>
+
+    <item android:id="@+id/profileFragment"
+        android:title="Perfil"
+        android:icon="@drawable/ic_profile"/>
+
+</menu>
